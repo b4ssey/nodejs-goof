@@ -23,7 +23,7 @@ console.log(JSON.stringify(cfenv.getAppEnv()));
 // Default Mongo URI is local
 const DOCKER = process.env.DOCKER
 if (DOCKER === '1') {
-  var mongoUri = 'mongodb://goof-mongo/express-todo';
+  var mongoUri = 'mongodb://mongodb-z3en/express-todo';
 } else {
   var mongoUri = 'mongodb://127.0.0.1/express-todo';
 }
